@@ -11,6 +11,9 @@
 - [x] List Chat Room
 - [x] Set AppID
 - [x] Login or Register
+- [x] User Rooms
+- [x] Delete Message
+- [x] Load More or Previous message
 
 ## Installation
 

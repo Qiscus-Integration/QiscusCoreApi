@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/QiscusCoreApi-Swift.h</key>
 		<data>
-		jlj4MZC0sNp74f1egHJCsL0P3ck=
+		evB+/qXEgbC+r3r8VN2w++f0irM=
 		</data>
 		<key>Headers/QiscusCoreApi.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hLv2QX9MSuNgj/1aOfP6RwbtQtU=
+		NPW8UXpeVkvMUgaBXTOdBq6x15g=
 		</data>
 		<key>Modules/QiscusCoreApi.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -22,15 +22,7 @@
 		</data>
 		<key>Modules/QiscusCoreApi.swiftmodule/arm.swiftmodule</key>
 		<data>
-		92VONM10zK2HJc0K7vpq2q0lQ5g=
-		</data>
-		<key>Modules/QiscusCoreApi.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<data>
-		L8DWRzBAJUDap6qhkTMGD5XcWaY=
-		</data>
-		<key>Modules/QiscusCoreApi.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		cAIaH8kPfBuh34BOCFGx54ivLtI=
+		dl+QmDQpbezFTersIlDToCetnSU=
 		</data>
 		<key>Modules/QiscusCoreApi.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,23 +30,7 @@
 		</data>
 		<key>Modules/QiscusCoreApi.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		cAIaH8kPfBuh34BOCFGx54ivLtI=
-		</data>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<data>
-		y0CX8DDzYq/3vJl/mw/LEvsrzhQ=
-		</data>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<data>
-		92VONM10zK2HJc0K7vpq2q0lQ5g=
-		</data>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7.swiftdoc</key>
-		<data>
-		y0CX8DDzYq/3vJl/mw/LEvsrzhQ=
-		</data>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7.swiftmodule</key>
-		<data>
-		92VONM10zK2HJc0K7vpq2q0lQ5g=
+		83oaDExHRF4LZWUOYbyl3jmBSJU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,11 +43,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jlj4MZC0sNp74f1egHJCsL0P3ck=
+			evB+/qXEgbC+r3r8VN2w++f0irM=
 			</data>
 			<key>hash2</key>
 			<data>
-			qvjNYZYSIUOoNdq0sJVqmsKDMEvKzysCT22vmJIjEP8=
+			cQLnwvFnIG3gg50tAx/BY6IlpHkemLjNzfQPoAb8ErQ=
 			</data>
 		</dict>
 		<key>Headers/QiscusCoreApi.h</key>
@@ -100,33 +76,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			92VONM10zK2HJc0K7vpq2q0lQ5g=
+			dl+QmDQpbezFTersIlDToCetnSU=
 			</data>
 			<key>hash2</key>
 			<data>
-			mJ90O+u7s9wu8tEkC12Jvtx4Ls0ab1TB6qkiL3waxlI=
-			</data>
-		</dict>
-		<key>Modules/QiscusCoreApi.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			L8DWRzBAJUDap6qhkTMGD5XcWaY=
-			</data>
-			<key>hash2</key>
-			<data>
-			on1iqAtx3MRmXkI4s0qIQLvceTtEpD3F/VaYP4m3SM8=
-			</data>
-		</dict>
-		<key>Modules/QiscusCoreApi.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cAIaH8kPfBuh34BOCFGx54ivLtI=
-			</data>
-			<key>hash2</key>
-			<data>
-			bzfniov3VYAj5wtlPNq9GGG1kttGvvEwwxej5W1SAXY=
+			KPzyidIQXIJ1PGCKF+3Wn1XdN7N6a5j0+evd0B08ApM=
 			</data>
 		</dict>
 		<key>Modules/QiscusCoreApi.swiftmodule/arm64.swiftdoc</key>
@@ -144,55 +98,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cAIaH8kPfBuh34BOCFGx54ivLtI=
+			83oaDExHRF4LZWUOYbyl3jmBSJU=
 			</data>
 			<key>hash2</key>
 			<data>
-			bzfniov3VYAj5wtlPNq9GGG1kttGvvEwwxej5W1SAXY=
-			</data>
-		</dict>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			y0CX8DDzYq/3vJl/mw/LEvsrzhQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			W79wrlY/x+Nh9llknOLzb8PWLSO8deh4svCwl+EcPw0=
-			</data>
-		</dict>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			92VONM10zK2HJc0K7vpq2q0lQ5g=
-			</data>
-			<key>hash2</key>
-			<data>
-			mJ90O+u7s9wu8tEkC12Jvtx4Ls0ab1TB6qkiL3waxlI=
-			</data>
-		</dict>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			y0CX8DDzYq/3vJl/mw/LEvsrzhQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			W79wrlY/x+Nh9llknOLzb8PWLSO8deh4svCwl+EcPw0=
-			</data>
-		</dict>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			92VONM10zK2HJc0K7vpq2q0lQ5g=
-			</data>
-			<key>hash2</key>
-			<data>
-			mJ90O+u7s9wu8tEkC12Jvtx4Ls0ab1TB6qkiL3waxlI=
+			g0PypvUAqluAzefaAN2pPM5/7TmNHk8ngYQ+2fPXwOU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

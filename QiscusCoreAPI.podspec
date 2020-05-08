@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "QiscusCoreAPI"
-s.version      = "0.1.4"
+s.version      = "0.2.1"
 s.summary      = "Qiscus Core API."
 s.homepage     = "http://qiscus.com"
 s.license      = "MIT"

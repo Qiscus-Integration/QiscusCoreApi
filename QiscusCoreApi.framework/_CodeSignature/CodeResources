@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/QiscusCoreApi-Swift.h</key>
 		<data>
-		EXtSlR7y49qQHTtn0Th/5qLnmzc=
+		aYEHyo0NQYu7vBCEjrp1PJaGZD0=
 		</data>
 		<key>Headers/QiscusCoreApi.h</key>
 		<data>
@@ -22,15 +22,7 @@
 		</data>
 		<key>Modules/QiscusCoreApi.swiftmodule/arm.swiftmodule</key>
 		<data>
-		ImgtEHKITsHO37OspkE8Rs8nnis=
-		</data>
-		<key>Modules/QiscusCoreApi.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<data>
-		WE+TTYC8sdiqvcfTX2eXpdSbf6I=
-		</data>
-		<key>Modules/QiscusCoreApi.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		vW2jG1sNc7pBNTEc3cqMxWmEqk0=
+		W0jUhpjs88qsV8vl95IKKx9grFg=
 		</data>
 		<key>Modules/QiscusCoreApi.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,23 +30,7 @@
 		</data>
 		<key>Modules/QiscusCoreApi.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		vW2jG1sNc7pBNTEc3cqMxWmEqk0=
-		</data>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<data>
-		slVmLkKxOiT+q9WFY4v4cbfkKYo=
-		</data>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<data>
-		ImgtEHKITsHO37OspkE8Rs8nnis=
-		</data>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7.swiftdoc</key>
-		<data>
-		slVmLkKxOiT+q9WFY4v4cbfkKYo=
-		</data>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7.swiftmodule</key>
-		<data>
-		ImgtEHKITsHO37OspkE8Rs8nnis=
+		wEqxEW4ZbifSm+54wboK7toeE8M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,11 +43,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EXtSlR7y49qQHTtn0Th/5qLnmzc=
+			aYEHyo0NQYu7vBCEjrp1PJaGZD0=
 			</data>
 			<key>hash2</key>
 			<data>
-			g5lIRteGIIlhb8iPNri7cgji+NLGql6vbzTGYQzsmVE=
+			E9irwjb4HFTMS+w/oX3PG1fYaTPz84aeZPX3qHpvmX4=
 			</data>
 		</dict>
 		<key>Headers/QiscusCoreApi.h</key>
@@ -100,33 +76,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ImgtEHKITsHO37OspkE8Rs8nnis=
+			W0jUhpjs88qsV8vl95IKKx9grFg=
 			</data>
 			<key>hash2</key>
 			<data>
-			PmEOPUDfyRCQ0Dd2O3ngqrCHBxTNfUWYpQIpMy4TfHY=
-			</data>
-		</dict>
-		<key>Modules/QiscusCoreApi.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WE+TTYC8sdiqvcfTX2eXpdSbf6I=
-			</data>
-			<key>hash2</key>
-			<data>
-			nKMHHLz1v2Ve23lOBUvukDrgsgaKB+WGpK0YveKnhDs=
-			</data>
-		</dict>
-		<key>Modules/QiscusCoreApi.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vW2jG1sNc7pBNTEc3cqMxWmEqk0=
-			</data>
-			<key>hash2</key>
-			<data>
-			AMs+54pOL+b2BLa6gEfz+VmBBFoxPSQkB+KTkTd5JoY=
+			GbCelIotiy4/NJKeO7l4cDvtU/kBpNg6Q3GeE+Pw78s=
 			</data>
 		</dict>
 		<key>Modules/QiscusCoreApi.swiftmodule/arm64.swiftdoc</key>
@@ -144,55 +98,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vW2jG1sNc7pBNTEc3cqMxWmEqk0=
+			wEqxEW4ZbifSm+54wboK7toeE8M=
 			</data>
 			<key>hash2</key>
 			<data>
-			AMs+54pOL+b2BLa6gEfz+VmBBFoxPSQkB+KTkTd5JoY=
-			</data>
-		</dict>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			slVmLkKxOiT+q9WFY4v4cbfkKYo=
-			</data>
-			<key>hash2</key>
-			<data>
-			zp021/fc30nWP3dfW8+E77G8zOj+6606o0+lde10Ujc=
-			</data>
-		</dict>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ImgtEHKITsHO37OspkE8Rs8nnis=
-			</data>
-			<key>hash2</key>
-			<data>
-			PmEOPUDfyRCQ0Dd2O3ngqrCHBxTNfUWYpQIpMy4TfHY=
-			</data>
-		</dict>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			slVmLkKxOiT+q9WFY4v4cbfkKYo=
-			</data>
-			<key>hash2</key>
-			<data>
-			zp021/fc30nWP3dfW8+E77G8zOj+6606o0+lde10Ujc=
-			</data>
-		</dict>
-		<key>Modules/QiscusCoreApi.swiftmodule/armv7.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ImgtEHKITsHO37OspkE8Rs8nnis=
-			</data>
-			<key>hash2</key>
-			<data>
-			PmEOPUDfyRCQ0Dd2O3ngqrCHBxTNfUWYpQIpMy4TfHY=
+			DGLHo8Bt/erHwx7xxH4Rpp5MJM9eFTSMss57Z1sP+G8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

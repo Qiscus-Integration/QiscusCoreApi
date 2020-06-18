@@ -6,7 +6,9 @@
 //  Copyright © 2018 Qiscus. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
+#endif
 
 public class QError {
     public var message : String = ""

@@ -1,0 +1,21 @@
+{
+  "allExecutables" : [
+
+  ],
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+
+  ],
+  "swiftTargetMap" : {
+    "C.QiscusCoreAPI-debug.module" : "QiscusCoreAPI",
+    "C.SwiftyJSON-debug.module" : "SwiftyJSON"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

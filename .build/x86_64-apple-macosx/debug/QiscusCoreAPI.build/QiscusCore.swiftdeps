@@ -1,0 +1,589 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VERSION_NUMBER"
+- "QiscusCoreAPI"
+provides-nominal:
+- "13QiscusCoreAPIAAC"
+provides-member:
+- ["13QiscusCoreAPIAAC", ""]
+provides-dynamic-lookup:
+- "bundle"
+- "config"
+- "delete"
+- "enableDebugPrint"
+- "getChatRoom"
+- "getJWTNonce"
+- "isLogined"
+- "loadMore"
+- "markAsRead"
+- "network"
+- "newMessage"
+- "register"
+- "send"
+- "setUserWithIdentityToken"
+- "signOut"
+- "sync"
+- "userProfile"
+- "userRooms"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Bundle"
+- "CommentModel"
+- "CoreCommand"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "MessageCommand"
+- "Meta"
+- "NetworkManager"
+- "QError"
+- "QNonce"
+- "QiscusConfig"
+- "QiscusCoreAPI"
+- "QiscusServer"
+- "RoomCommand"
+- "RoomModel"
+- "RoomType"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "URL"
+- "UserModel"
+- "VERSION_NUMBER"
+- "Void"
+- !private "fatalError"
+- !private "print"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "first"]
+- !private ["Sa", "init"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["Sz", "init"]
+- !private ["So8NSBundleC", "init"]
+- !private ["So8NSBundleC", "url"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s12CaseIterableP", "sending"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "subscript"]
+- !private ["13QiscusCoreAPI12CommentModelC", "extras"]
+- !private ["13QiscusCoreAPI12CommentModelC", "getTimestamp"]
+- !private ["13QiscusCoreAPI12CommentModelC", "id"]
+- !private ["13QiscusCoreAPI12CommentModelC", "init"]
+- !private ["13QiscusCoreAPI12CommentModelC", "isQiscustype"]
+- !private ["13QiscusCoreAPI12CommentModelC", "message"]
+- !private ["13QiscusCoreAPI12CommentModelC", "payload"]
+- !private ["13QiscusCoreAPI12CommentModelC", "roomId"]
+- !private ["13QiscusCoreAPI12CommentModelC", "status"]
+- !private ["13QiscusCoreAPI12CommentModelC", "timestamp"]
+- !private ["13QiscusCoreAPI12CommentModelC", "type"]
+- !private ["13QiscusCoreAPI12CommentModelC", "uniqId"]
+- !private ["13QiscusCoreAPI13CommentStatusO", "sending"]
+- !private ["SL", "init"]
+- !private ["SL", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["13QiscusCoreAPI0B7CommandP", "Bundle"]
+- !private ["13QiscusCoreAPI0B7CommandP", "CommentModel"]
+- !private ["13QiscusCoreAPI0B7CommandP", "Int"]
+- !private ["13QiscusCoreAPI0B7CommandP", "NetworkManager"]
+- !private ["13QiscusCoreAPI0B7CommandP", "QError"]
+- !private ["13QiscusCoreAPI0B7CommandP", "QiscusConfig"]
+- !private ["13QiscusCoreAPI0B7CommandP", "QiscusCoreAPI"]
+- !private ["13QiscusCoreAPI0B7CommandP", "QiscusServer"]
+- !private ["13QiscusCoreAPI0B7CommandP", "URL"]
+- !private ["13QiscusCoreAPI0B7CommandP", "UserModel"]
+- ["13QiscusCoreAPI0B7CommandP", ""]
+- !private ["13QiscusCoreAPI0B7CommandP", "config"]
+- ["13QiscusCoreAPI0B7CommandP", "delete"]
+- !private ["13QiscusCoreAPI0B7CommandP", "fatalError"]
+- ["13QiscusCoreAPI0B7CommandP", "getChatRoom"]
+- ["13QiscusCoreAPI0B7CommandP", "getJWTNonce"]
+- ["13QiscusCoreAPI0B7CommandP", "loadMore"]
+- ["13QiscusCoreAPI0B7CommandP", "markAsRead"]
+- !private ["13QiscusCoreAPI0B7CommandP", "network"]
+- ["13QiscusCoreAPI0B7CommandP", "newMessage"]
+- !private ["13QiscusCoreAPI0B7CommandP", "print"]
+- ["13QiscusCoreAPI0B7CommandP", "register"]
+- ["13QiscusCoreAPI0B7CommandP", "send"]
+- ["13QiscusCoreAPI0B7CommandP", "setUserWithIdentityToken"]
+- ["13QiscusCoreAPI0B7CommandP", "signOut"]
+- !private ["13QiscusCoreAPI0B7CommandP", "userProfile"]
+- ["13QiscusCoreAPI0B7CommandP", "userRooms"]
+- !private ["s28CustomDebugStringConvertibleP", "appId"]
+- !private ["s28CustomDebugStringConvertibleP", "deleteComment"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "getNonce"]
+- !private ["s28CustomDebugStringConvertibleP", "getRoomById"]
+- !private ["s28CustomDebugStringConvertibleP", "getRoomList"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "loadComments"]
+- !private ["s28CustomDebugStringConvertibleP", "login"]
+- !private ["s28CustomDebugStringConvertibleP", "postComment"]
+- !private ["s28CustomDebugStringConvertibleP", "registerDeviceToken"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "server"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "sync"]
+- !private ["s28CustomDebugStringConvertibleP", "updateCommentStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s17CustomReflectableP", "appId"]
+- !private ["s17CustomReflectableP", "deleteComment"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "getNonce"]
+- !private ["s17CustomReflectableP", "getRoomById"]
+- !private ["s17CustomReflectableP", "getRoomList"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "loadComments"]
+- !private ["s17CustomReflectableP", "login"]
+- !private ["s17CustomReflectableP", "postComment"]
+- !private ["s17CustomReflectableP", "registerDeviceToken"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "server"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "sync"]
+- !private ["s17CustomReflectableP", "updateCommentStatus"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "appId"]
+- !private ["Se", "deleteComment"]
+- !private ["Se", "first"]
+- !private ["Se", "getNonce"]
+- !private ["Se", "getRoomById"]
+- !private ["Se", "getRoomList"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "loadComments"]
+- !private ["Se", "login"]
+- !private ["Se", "postComment"]
+- !private ["Se", "registerDeviceToken"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "server"]
+- !private ["Se", "subscript"]
+- !private ["Se", "sync"]
+- !private ["Se", "updateCommentStatus"]
+- !private ["SD", "removeAll"]
+- !private ["SD", "subscript"]
+- !private ["SE", "appId"]
+- !private ["SE", "deleteComment"]
+- !private ["SE", "first"]
+- !private ["SE", "getNonce"]
+- !private ["SE", "getRoomById"]
+- !private ["SE", "getRoomList"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "loadComments"]
+- !private ["SE", "login"]
+- !private ["SE", "postComment"]
+- !private ["SE", "registerDeviceToken"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "server"]
+- !private ["SE", "subscript"]
+- !private ["SE", "sync"]
+- !private ["SE", "updateCommentStatus"]
+- !private ["SQ", "appId"]
+- !private ["SQ", "deleteComment"]
+- !private ["SQ", "first"]
+- !private ["SQ", "getNonce"]
+- !private ["SQ", "getRoomById"]
+- !private ["SQ", "getRoomList"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "loadComments"]
+- !private ["SQ", "login"]
+- !private ["SQ", "postComment"]
+- !private ["SQ", "registerDeviceToken"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "sending"]
+- !private ["SQ", "server"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "sync"]
+- !private ["SQ", "updateCommentStatus"]
+- !private ["SQ", "url"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeAll"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "appId"]
+- !private ["s23ExpressibleByNilLiteralP", "deleteComment"]
+- !private ["s23ExpressibleByNilLiteralP", "getNonce"]
+- !private ["s23ExpressibleByNilLiteralP", "getRoomById"]
+- !private ["s23ExpressibleByNilLiteralP", "getRoomList"]
+- !private ["s23ExpressibleByNilLiteralP", "loadComments"]
+- !private ["s23ExpressibleByNilLiteralP", "login"]
+- !private ["s23ExpressibleByNilLiteralP", "postComment"]
+- !private ["s23ExpressibleByNilLiteralP", "registerDeviceToken"]
+- !private ["s23ExpressibleByNilLiteralP", "server"]
+- !private ["s23ExpressibleByNilLiteralP", "sync"]
+- !private ["s23ExpressibleByNilLiteralP", "updateCommentStatus"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "appId"]
+- !private ["SH", "deleteComment"]
+- !private ["SH", "first"]
+- !private ["SH", "getNonce"]
+- !private ["SH", "getRoomById"]
+- !private ["SH", "getRoomList"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "loadComments"]
+- !private ["SH", "login"]
+- !private ["SH", "postComment"]
+- !private ["SH", "registerDeviceToken"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "sending"]
+- !private ["SH", "server"]
+- !private ["SH", "subscript"]
+- !private ["SH", "sync"]
+- !private ["SH", "updateCommentStatus"]
+- !private ["SH", "url"]
+- !private ["Si", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "Bundle"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "CommentModel"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "Int"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "NetworkManager"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "QError"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "QiscusConfig"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "QiscusCoreAPI"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "QiscusServer"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "URL"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "UserModel"]
+- ["13QiscusCoreAPI14MessageCommandP", ""]
+- !private ["13QiscusCoreAPI14MessageCommandP", "config"]
+- ["13QiscusCoreAPI14MessageCommandP", "delete"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "fatalError"]
+- ["13QiscusCoreAPI14MessageCommandP", "getChatRoom"]
+- ["13QiscusCoreAPI14MessageCommandP", "getJWTNonce"]
+- ["13QiscusCoreAPI14MessageCommandP", "loadMore"]
+- ["13QiscusCoreAPI14MessageCommandP", "markAsRead"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "network"]
+- ["13QiscusCoreAPI14MessageCommandP", "newMessage"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "print"]
+- ["13QiscusCoreAPI14MessageCommandP", "register"]
+- ["13QiscusCoreAPI14MessageCommandP", "send"]
+- ["13QiscusCoreAPI14MessageCommandP", "setUserWithIdentityToken"]
+- ["13QiscusCoreAPI14MessageCommandP", "signOut"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "userProfile"]
+- ["13QiscusCoreAPI14MessageCommandP", "userRooms"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["SM", "first"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "url"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "deleteComment"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "getNonce"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "getRoomById"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "getRoomList"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "init"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "loadComments"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "login"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "postComment"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "registerDeviceToken"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "sync"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "updateCommentStatus"]
+- !private ["Sj", "init"]
+- !private ["Sq", "appId"]
+- !private ["Sq", "deleteComment"]
+- !private ["Sq", "getNonce"]
+- !private ["Sq", "getRoomById"]
+- !private ["Sq", "getRoomList"]
+- !private ["Sq", "loadComments"]
+- !private ["Sq", "login"]
+- !private ["Sq", "postComment"]
+- !private ["Sq", "registerDeviceToken"]
+- !private ["Sq", "server"]
+- !private ["Sq", "sync"]
+- !private ["Sq", "updateCommentStatus"]
+- !private ["13QiscusCoreAPI6QErrorC", "init"]
+- !private ["13QiscusCoreAPI0A6ConfigV", "appId"]
+- !private ["13QiscusCoreAPI0A6ConfigV", "init"]
+- !private ["13QiscusCoreAPI0A6ConfigV", "server"]
+- ["13QiscusCoreAPIAAC", "Bool"]
+- ["13QiscusCoreAPIAAC", "Bundle"]
+- ["13QiscusCoreAPIAAC", "CommentModel"]
+- ["13QiscusCoreAPIAAC", "Int"]
+- ["13QiscusCoreAPIAAC", "Meta"]
+- ["13QiscusCoreAPIAAC", "NetworkManager"]
+- ["13QiscusCoreAPIAAC", "QError"]
+- ["13QiscusCoreAPIAAC", "QNonce"]
+- ["13QiscusCoreAPIAAC", "QiscusConfig"]
+- !private ["13QiscusCoreAPIAAC", "QiscusCoreAPI"]
+- ["13QiscusCoreAPIAAC", "QiscusServer"]
+- ["13QiscusCoreAPIAAC", "RoomModel"]
+- ["13QiscusCoreAPIAAC", "RoomType"]
+- ["13QiscusCoreAPIAAC", "String"]
+- !private ["13QiscusCoreAPIAAC", "URL"]
+- ["13QiscusCoreAPIAAC", "UserModel"]
+- ["13QiscusCoreAPIAAC", "Void"]
+- ["13QiscusCoreAPIAAC", "bundle"]
+- ["13QiscusCoreAPIAAC", "config"]
+- ["13QiscusCoreAPIAAC", "deinit"]
+- ["13QiscusCoreAPIAAC", "delete"]
+- ["13QiscusCoreAPIAAC", "enableDebugPrint"]
+- !private ["13QiscusCoreAPIAAC", "fatalError"]
+- ["13QiscusCoreAPIAAC", "getChatRoom"]
+- ["13QiscusCoreAPIAAC", "getJWTNonce"]
+- ["13QiscusCoreAPIAAC", "init"]
+- ["13QiscusCoreAPIAAC", "isLogined"]
+- ["13QiscusCoreAPIAAC", "loadMore"]
+- ["13QiscusCoreAPIAAC", "markAsRead"]
+- !private ["13QiscusCoreAPIAAC", "network"]
+- ["13QiscusCoreAPIAAC", "newMessage"]
+- !private ["13QiscusCoreAPIAAC", "print"]
+- ["13QiscusCoreAPIAAC", "register"]
+- ["13QiscusCoreAPIAAC", "send"]
+- ["13QiscusCoreAPIAAC", "setUserWithIdentityToken"]
+- ["13QiscusCoreAPIAAC", "signOut"]
+- ["13QiscusCoreAPIAAC", "sync"]
+- ["13QiscusCoreAPIAAC", "userProfile"]
+- ["13QiscusCoreAPIAAC", "userRooms"]
+- !private ["13QiscusCoreAPI0A6ServerV", "init"]
+- !private ["Sk", "first"]
+- !private ["Sk", "init"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["SY", "sending"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "Bundle"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "CommentModel"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "Int"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "NetworkManager"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "QError"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "QiscusConfig"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "QiscusCoreAPI"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "QiscusServer"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "URL"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "UserModel"]
+- ["13QiscusCoreAPI11RoomCommandP", ""]
+- !private ["13QiscusCoreAPI11RoomCommandP", "config"]
+- ["13QiscusCoreAPI11RoomCommandP", "delete"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "fatalError"]
+- ["13QiscusCoreAPI11RoomCommandP", "getChatRoom"]
+- ["13QiscusCoreAPI11RoomCommandP", "getJWTNonce"]
+- ["13QiscusCoreAPI11RoomCommandP", "loadMore"]
+- ["13QiscusCoreAPI11RoomCommandP", "markAsRead"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "network"]
+- ["13QiscusCoreAPI11RoomCommandP", "newMessage"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "print"]
+- ["13QiscusCoreAPI11RoomCommandP", "register"]
+- ["13QiscusCoreAPI11RoomCommandP", "send"]
+- ["13QiscusCoreAPI11RoomCommandP", "setUserWithIdentityToken"]
+- ["13QiscusCoreAPI11RoomCommandP", "signOut"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "userProfile"]
+- ["13QiscusCoreAPI11RoomCommandP", "userRooms"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["Sy", "isEmpty"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["13QiscusCoreAPI9UserModelV", "clear"]
+- !private ["13QiscusCoreAPI9UserModelV", "init"]
+- !private ["13QiscusCoreAPI9UserModelV", "loadUserProfile"]
+- !private ["13QiscusCoreAPI9UserModelV", "save"]
+- !private ["13QiscusCoreAPI9UserModelV", "token"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "appId"]
+- !private ["s21_ObjectiveCBridgeableP", "deleteComment"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "getNonce"]
+- !private ["s21_ObjectiveCBridgeableP", "getRoomById"]
+- !private ["s21_ObjectiveCBridgeableP", "getRoomList"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "loadComments"]
+- !private ["s21_ObjectiveCBridgeableP", "login"]
+- !private ["s21_ObjectiveCBridgeableP", "postComment"]
+- !private ["s21_ObjectiveCBridgeableP", "registerDeviceToken"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "server"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "sync"]
+- !private ["s21_ObjectiveCBridgeableP", "updateCommentStatus"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "So8NSBundleC"
+- !private "s7CVarArgP"
+- !private "s12CaseIterableP"
+- !private "Sl"
+- !private "13QiscusCoreAPI12CommentModelC"
+- !private "13QiscusCoreAPI13CommentStatusO"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "13QiscusCoreAPI0B7CommandP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- "13QiscusCoreAPI14MessageCommandP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "13QiscusCoreAPI14NetworkManagerC"
+- !private "Sj"
+- !private "Sq"
+- !private "13QiscusCoreAPI6QErrorC"
+- !private "13QiscusCoreAPI0A6ConfigV"
+- "13QiscusCoreAPIAAC"
+- !private "13QiscusCoreAPI0A6ServerV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "13QiscusCoreAPI11RoomCommandP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "13QiscusCoreAPI9UserModelV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/SwiftyJSON.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/module.modulemap"
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/SwiftyJSON.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bcfbbf23d0d68f6123ae2b99a9c43506"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "5b5a5eb5db4a9d50486aca1d662a0935"
+build_time: [1592477424, 537757000]
+inputs:
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/checkouts/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1592477365, 667378772]

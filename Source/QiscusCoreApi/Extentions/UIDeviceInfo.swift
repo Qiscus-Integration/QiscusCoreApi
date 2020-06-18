@@ -6,7 +6,10 @@
 //  Copyright © 2019 Qiscus. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
+#endif
+import Foundation
 
 public extension UIDevice {
     

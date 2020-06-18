@@ -5,7 +5,10 @@
 //  Created by Qiscus on 18/07/18.
 //
 
+#if os(iOS)
 import UIKit
+#endif
+import Foundation
 
 struct URLParameterEncoder: ParameterEncoder {
     func encode(urlRequest: inout URLRequest, with parameters: Parameters) throws {

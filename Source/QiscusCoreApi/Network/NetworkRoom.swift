@@ -5,6 +5,8 @@
 //  Created by Qiscus on 14/08/18.
 //
 
+import Foundation
+
 // MARK: Room
 extension NetworkManager {
     /// get room chat room list

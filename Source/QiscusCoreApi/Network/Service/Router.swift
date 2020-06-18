@@ -6,7 +6,10 @@
 //  Copyright © 2018 Malcolm Kumwenda. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
+#endif
+import Foundation
 
 internal typealias NetworkRouterCompletion = (_ data: Data?,_ response: URLResponse?,_ error: Error?)->()
 

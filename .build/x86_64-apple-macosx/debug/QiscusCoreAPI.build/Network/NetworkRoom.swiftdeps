@@ -1,0 +1,225 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["13QiscusCoreAPI14NetworkManagerC", ""]
+- ["13QiscusCoreAPI14NetworkManagerC", "getRoomList"]
+- ["13QiscusCoreAPI14NetworkManagerC", "getRoomInfo"]
+- ["13QiscusCoreAPI14NetworkManagerC", "createRoom"]
+- ["13QiscusCoreAPI14NetworkManagerC", "updateRoom"]
+- ["13QiscusCoreAPI14NetworkManagerC", "getOrCreateRoomWithTarget"]
+- ["13QiscusCoreAPI14NetworkManagerC", "chatUser"]
+- ["13QiscusCoreAPI14NetworkManagerC", "getOrCreateChannel"]
+- ["13QiscusCoreAPI14NetworkManagerC", "createChannel"]
+- ["13QiscusCoreAPI14NetworkManagerC", "getChannel"]
+- ["13QiscusCoreAPI14NetworkManagerC", "getRoomById"]
+- ["13QiscusCoreAPI14NetworkManagerC", "getParticipants"]
+- ["13QiscusCoreAPI14NetworkManagerC", "addParticipants"]
+- ["13QiscusCoreAPI14NetworkManagerC", "removeParticipants"]
+provides-dynamic-lookup:
+- "addParticipants"
+- "chatUser"
+- "createChannel"
+- "createRoom"
+- "getChannel"
+- "getOrCreateChannel"
+- "getOrCreateRoomWithTarget"
+- "getParticipants"
+- "getRoomById"
+- "getRoomInfo"
+- "getRoomList"
+- "removeParticipants"
+- "updateRoom"
+depends-top-level:
+- !private "!="
+- !private "??"
+- !private "ApiResponse"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "CommentApiResponse"
+- "CommentModel"
+- "FloatLiteralType"
+- !private "HTTPURLResponse"
+- "Int"
+- "IntegerLiteralType"
+- !private "JSONSerialization"
+- "MemberModel"
+- "Meta"
+- "MetaRoomParticipant"
+- "NetworkManager"
+- !private "NetworkResponse"
+- "QError"
+- !private "QiscusLogger"
+- !private "RoomApiResponse"
+- "RoomModel"
+- "RoomType"
+- "SortType"
+- "String"
+- "StringLiteralType"
+- "URL"
+- "Void"
+depends-member:
+- !private ["13QiscusCoreAPI7APIRoomO", "addParticipant"]
+- !private ["13QiscusCoreAPI7APIRoomO", "channelWithUniqueId"]
+- !private ["13QiscusCoreAPI7APIRoomO", "createNewRoom"]
+- !private ["13QiscusCoreAPI7APIRoomO", "deinit"]
+- !private ["13QiscusCoreAPI7APIRoomO", "getParticipant"]
+- !private ["13QiscusCoreAPI7APIRoomO", "getRoomById"]
+- !private ["13QiscusCoreAPI7APIRoomO", "removeParticipant"]
+- !private ["13QiscusCoreAPI7APIRoomO", "roomInfo"]
+- !private ["13QiscusCoreAPI7APIRoomO", "roomList"]
+- !private ["13QiscusCoreAPI7APIRoomO", "roomWithTarget"]
+- !private ["13QiscusCoreAPI7APIRoomO", "updateRoom"]
+- !private ["13QiscusCoreAPI11ApiResponseC", "decode"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["13QiscusCoreAPI18CommentApiResponseC", "comments"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["13QiscusCoreAPI8EndPointP", "addParticipant"]
+- !private ["13QiscusCoreAPI8EndPointP", "channelWithUniqueId"]
+- !private ["13QiscusCoreAPI8EndPointP", "createNewRoom"]
+- !private ["13QiscusCoreAPI8EndPointP", "getParticipant"]
+- !private ["13QiscusCoreAPI8EndPointP", "getRoomById"]
+- !private ["13QiscusCoreAPI8EndPointP", "removeParticipant"]
+- !private ["13QiscusCoreAPI8EndPointP", "roomInfo"]
+- !private ["13QiscusCoreAPI8EndPointP", "roomList"]
+- !private ["13QiscusCoreAPI8EndPointP", "roomWithTarget"]
+- !private ["13QiscusCoreAPI8EndPointP", "updateRoom"]
+- !private ["SQ", "jsonObject"]
+- !private ["SQ", "mutableContainers"]
+- !private ["SQ", "noData"]
+- !private ["SQ", "rawValue"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "mutableContainers"]
+- !private ["SH", "jsonObject"]
+- !private ["SH", "noData"]
+- !private ["SH", "rawValue"]
+- !private ["So19NSJSONSerializationC", "jsonObject"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectP", "jsonObject"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "ApiResponse"]
+- ["13QiscusCoreAPI14NetworkManagerC", "Bool"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "CommentApiResponse"]
+- ["13QiscusCoreAPI14NetworkManagerC", "CommentModel"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "HTTPURLResponse"]
+- ["13QiscusCoreAPI14NetworkManagerC", "Int"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "JSONSerialization"]
+- ["13QiscusCoreAPI14NetworkManagerC", "MemberModel"]
+- ["13QiscusCoreAPI14NetworkManagerC", "Meta"]
+- ["13QiscusCoreAPI14NetworkManagerC", "MetaRoomParticipant"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "NetworkResponse"]
+- ["13QiscusCoreAPI14NetworkManagerC", "QError"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "QiscusLogger"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "RoomApiResponse"]
+- ["13QiscusCoreAPI14NetworkManagerC", "RoomModel"]
+- ["13QiscusCoreAPI14NetworkManagerC", "RoomType"]
+- ["13QiscusCoreAPI14NetworkManagerC", "SortType"]
+- ["13QiscusCoreAPI14NetworkManagerC", "String"]
+- ["13QiscusCoreAPI14NetworkManagerC", "URL"]
+- ["13QiscusCoreAPI14NetworkManagerC", "Void"]
+- ["13QiscusCoreAPI14NetworkManagerC", "addParticipants"]
+- ["13QiscusCoreAPI14NetworkManagerC", "chatUser"]
+- ["13QiscusCoreAPI14NetworkManagerC", "createChannel"]
+- ["13QiscusCoreAPI14NetworkManagerC", "createRoom"]
+- ["13QiscusCoreAPI14NetworkManagerC", "getChannel"]
+- ["13QiscusCoreAPI14NetworkManagerC", "getOrCreateChannel"]
+- ["13QiscusCoreAPI14NetworkManagerC", "getOrCreateRoomWithTarget"]
+- ["13QiscusCoreAPI14NetworkManagerC", "getParticipants"]
+- ["13QiscusCoreAPI14NetworkManagerC", "getRoomById"]
+- ["13QiscusCoreAPI14NetworkManagerC", "getRoomInfo"]
+- ["13QiscusCoreAPI14NetworkManagerC", "getRoomList"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "handleNetworkResponse"]
+- ["13QiscusCoreAPI14NetworkManagerC", "removeParticipants"]
+- !private ["13QiscusCoreAPI14NetworkManagerC", "roomRouter"]
+- ["13QiscusCoreAPI14NetworkManagerC", "updateRoom"]
+- !private ["13QiscusCoreAPI15NetworkResponseO", "deinit"]
+- !private ["13QiscusCoreAPI15NetworkResponseO", "noData"]
+- !private ["13QiscusCoreAPI15NetworkResponseO", "rawValue"]
+- !private ["13QiscusCoreAPI13NetworkRouterP", "request"]
+- !private ["s9OptionSetP", "mutableContainers"]
+- !private ["13QiscusCoreAPI6QErrorC", "init"]
+- !private ["13QiscusCoreAPI0A6LoggerC", "errorPrint"]
+- !private ["SY", "mutableContainers"]
+- !private ["SY", "noData"]
+- !private ["SY", "rawValue"]
+- !private ["So20NSJSONReadingOptionsV", "mutableContainers"]
+- !private ["13QiscusCoreAPI6ResultO", "failure"]
+- !private ["13QiscusCoreAPI6ResultO", "success"]
+- !private ["13QiscusCoreAPI15RoomApiResponseC", "addParticipants"]
+- !private ["13QiscusCoreAPI15RoomApiResponseC", "meta"]
+- !private ["13QiscusCoreAPI15RoomApiResponseC", "metaRoomParticipant"]
+- !private ["13QiscusCoreAPI15RoomApiResponseC", "participants"]
+- !private ["13QiscusCoreAPI15RoomApiResponseC", "room"]
+- !private ["13QiscusCoreAPI15RoomApiResponseC", "rooms"]
+- !private ["13QiscusCoreAPI6RouterC", "deinit"]
+- !private ["13QiscusCoreAPI6RouterC", "request"]
+- !private ["s10SetAlgebraP", "mutableContainers"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jsonObject"]
+depends-nominal:
+- !private "13QiscusCoreAPI7APIRoomO"
+- !private "13QiscusCoreAPI11ApiResponseC"
+- !private "s7CVarArgP"
+- !private "13QiscusCoreAPI18CommentApiResponseC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- !private "13QiscusCoreAPI8EndPointP"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "So19NSJSONSerializationC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "13QiscusCoreAPI14NetworkManagerC"
+- !private "13QiscusCoreAPI15NetworkResponseO"
+- !private "13QiscusCoreAPI13NetworkRouterP"
+- !private "s9OptionSetP"
+- !private "13QiscusCoreAPI6QErrorC"
+- !private "13QiscusCoreAPI0A6LoggerC"
+- !private "SY"
+- !private "So20NSJSONReadingOptionsV"
+- !private "13QiscusCoreAPI6ResultO"
+- !private "13QiscusCoreAPI15RoomApiResponseC"
+- !private "13QiscusCoreAPI6RouterC"
+- !private "s10SetAlgebraP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/SwiftyJSON.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/module.modulemap"
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/SwiftyJSON.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b106ed5716102aacca74d1595f058c0c"

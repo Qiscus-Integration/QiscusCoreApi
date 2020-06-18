@@ -1,0 +1,831 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SyncMeta"
+- "CommentModel"
+- "CommentStatus"
+- "CommentType"
+provides-nominal:
+- "13QiscusCoreAPI8SyncMetaC"
+- "13QiscusCoreAPI12CommentModelC"
+- "13QiscusCoreAPI13CommentStatusO"
+- "13QiscusCoreAPI11CommentTypeO"
+provides-member:
+- ["13QiscusCoreAPI8SyncMetaC", ""]
+- ["13QiscusCoreAPI12CommentModelC", ""]
+- ["13QiscusCoreAPI13CommentStatusO", ""]
+- ["13QiscusCoreAPI11CommentTypeO", ""]
+- ["13QiscusCoreAPI12CommentModelC", "getDate"]
+- ["13QiscusCoreAPI12CommentModelC", "getTimestamp"]
+- ["13QiscusCoreAPI12CommentModelC", "isQiscustype"]
+provides-dynamic-lookup:
+- "commentBeforeId"
+- "date"
+- "extras"
+- "getDate"
+- "getPayload"
+- "getTimestamp"
+- "getType"
+- "id"
+- "isDeleted"
+- "isPublicChannel"
+- "isQiscustype"
+- "last_received_comment_id"
+- "message"
+- "need_clear"
+- "payload"
+- "roomId"
+- "status"
+- "timestamp"
+- "type"
+- "uniqId"
+- "unixTimestamp"
+- "userAvatarUrl"
+- "userEmail"
+- "userId"
+- "username"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "*"
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CaseIterable"
+- "CastingPrecedence"
+- "CommentModel"
+- "CommentStatus"
+- "CommentType"
+- "Date"
+- !private "DateFormatter"
+- "FloatLiteralType"
+- "Int"
+- "Int64"
+- "IntegerLiteralType"
+- "JSON"
+- !private "Locale"
+- !private "NSDate"
+- "String"
+- "StringLiteralType"
+- "SyncMeta"
+- !private "TimeZone"
+- "URL"
+- "UserModel"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "enumerated"]
+- !private ["SK", "boolValue"]
+- !private ["SK", "dictionaryObject"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "init"]
+- !private ["SK", "int64Value"]
+- !private ["SK", "lowercased"]
+- !private ["SK", "stringValue"]
+- !private ["SK", "url"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "timeIntervalSince1970"]
+- !private ["s7CVarArgP", "timeZone"]
+- ["s12CaseIterableP", "=="]
+- ["s12CaseIterableP", "AllCases"]
+- !private ["s12CaseIterableP", "CommentStatus"]
+- ["s12CaseIterableP", "RawValue"]
+- ["s12CaseIterableP", ""]
+- ["s12CaseIterableP", "_Default_AllCases"]
+- ["s12CaseIterableP", "_Default_RawValue"]
+- !private ["s12CaseIterableP", "_findStringSwitchCase"]
+- ["s12CaseIterableP", "_rawHashValue"]
+- !private ["s12CaseIterableP", "all"]
+- ["s12CaseIterableP", "allCases"]
+- !private ["s12CaseIterableP", "asInt"]
+- ["s12CaseIterableP", "deleted"]
+- ["s12CaseIterableP", "delivered"]
+- ["s12CaseIterableP", "failed"]
+- ["s12CaseIterableP", "hash"]
+- ["s12CaseIterableP", "hashValue"]
+- ["s12CaseIterableP", "init"]
+- ["s12CaseIterableP", "pending"]
+- ["s12CaseIterableP", "rawValue"]
+- ["s12CaseIterableP", "read"]
+- ["s12CaseIterableP", "sending"]
+- ["s12CaseIterableP", "sent"]
+- !private ["Sl", "boolValue"]
+- !private ["Sl", "dictionaryObject"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "init"]
+- !private ["Sl", "int64Value"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "lowercased"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "stringValue"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "url"]
+- ["13QiscusCoreAPI12CommentModelC", "Bool"]
+- !private ["13QiscusCoreAPI12CommentModelC", "CommentModel"]
+- ["13QiscusCoreAPI12CommentModelC", "CommentStatus"]
+- !private ["13QiscusCoreAPI12CommentModelC", "CommentType"]
+- ["13QiscusCoreAPI12CommentModelC", "Date"]
+- !private ["13QiscusCoreAPI12CommentModelC", "DateFormatter"]
+- ["13QiscusCoreAPI12CommentModelC", "Int64"]
+- ["13QiscusCoreAPI12CommentModelC", "JSON"]
+- !private ["13QiscusCoreAPI12CommentModelC", "Locale"]
+- !private ["13QiscusCoreAPI12CommentModelC", "NSDate"]
+- ["13QiscusCoreAPI12CommentModelC", "String"]
+- !private ["13QiscusCoreAPI12CommentModelC", "TimeZone"]
+- ["13QiscusCoreAPI12CommentModelC", "URL"]
+- ["13QiscusCoreAPI12CommentModelC", "UserModel"]
+- ["13QiscusCoreAPI12CommentModelC", "commentBeforeId"]
+- ["13QiscusCoreAPI12CommentModelC", "date"]
+- ["13QiscusCoreAPI12CommentModelC", "deinit"]
+- ["13QiscusCoreAPI12CommentModelC", "extras"]
+- ["13QiscusCoreAPI12CommentModelC", "getDate"]
+- !private ["13QiscusCoreAPI12CommentModelC", "getPayload"]
+- ["13QiscusCoreAPI12CommentModelC", "getTimestamp"]
+- !private ["13QiscusCoreAPI12CommentModelC", "getType"]
+- ["13QiscusCoreAPI12CommentModelC", "id"]
+- ["13QiscusCoreAPI12CommentModelC", "init"]
+- ["13QiscusCoreAPI12CommentModelC", "isDeleted"]
+- ["13QiscusCoreAPI12CommentModelC", "isPublicChannel"]
+- ["13QiscusCoreAPI12CommentModelC", "isQiscustype"]
+- ["13QiscusCoreAPI12CommentModelC", "message"]
+- ["13QiscusCoreAPI12CommentModelC", "payload"]
+- ["13QiscusCoreAPI12CommentModelC", "roomId"]
+- ["13QiscusCoreAPI12CommentModelC", "status"]
+- ["13QiscusCoreAPI12CommentModelC", "timestamp"]
+- ["13QiscusCoreAPI12CommentModelC", "type"]
+- ["13QiscusCoreAPI12CommentModelC", "uniqId"]
+- ["13QiscusCoreAPI12CommentModelC", "unixTimestamp"]
+- ["13QiscusCoreAPI12CommentModelC", "userAvatarUrl"]
+- ["13QiscusCoreAPI12CommentModelC", "userEmail"]
+- ["13QiscusCoreAPI12CommentModelC", "userId"]
+- ["13QiscusCoreAPI12CommentModelC", "username"]
+- ["13QiscusCoreAPI13CommentStatusO", "=="]
+- ["13QiscusCoreAPI13CommentStatusO", "AllCases"]
+- !private ["13QiscusCoreAPI13CommentStatusO", "CommentStatus"]
+- ["13QiscusCoreAPI13CommentStatusO", "Int"]
+- ["13QiscusCoreAPI13CommentStatusO", "RawValue"]
+- ["13QiscusCoreAPI13CommentStatusO", "_Default_AllCases"]
+- ["13QiscusCoreAPI13CommentStatusO", "_Default_RawValue"]
+- !private ["13QiscusCoreAPI13CommentStatusO", "_findStringSwitchCase"]
+- ["13QiscusCoreAPI13CommentStatusO", "_rawHashValue"]
+- ["13QiscusCoreAPI13CommentStatusO", "all"]
+- ["13QiscusCoreAPI13CommentStatusO", "allCases"]
+- !private ["13QiscusCoreAPI13CommentStatusO", "asInt"]
+- ["13QiscusCoreAPI13CommentStatusO", "deinit"]
+- ["13QiscusCoreAPI13CommentStatusO", "deleted"]
+- ["13QiscusCoreAPI13CommentStatusO", "deleting"]
+- ["13QiscusCoreAPI13CommentStatusO", "delivered"]
+- ["13QiscusCoreAPI13CommentStatusO", "failed"]
+- ["13QiscusCoreAPI13CommentStatusO", "hash"]
+- ["13QiscusCoreAPI13CommentStatusO", "hashValue"]
+- ["13QiscusCoreAPI13CommentStatusO", "init"]
+- ["13QiscusCoreAPI13CommentStatusO", "intValue"]
+- ["13QiscusCoreAPI13CommentStatusO", "pending"]
+- ["13QiscusCoreAPI13CommentStatusO", "rawValue"]
+- ["13QiscusCoreAPI13CommentStatusO", "read"]
+- ["13QiscusCoreAPI13CommentStatusO", "sending"]
+- ["13QiscusCoreAPI13CommentStatusO", "sent"]
+- ["13QiscusCoreAPI11CommentTypeO", "=="]
+- ["13QiscusCoreAPI11CommentTypeO", "RawValue"]
+- ["13QiscusCoreAPI11CommentTypeO", "_Default_RawValue"]
+- !private ["13QiscusCoreAPI11CommentTypeO", "_findStringSwitchCase"]
+- ["13QiscusCoreAPI11CommentTypeO", "_rawHashValue"]
+- ["13QiscusCoreAPI11CommentTypeO", "accountLink"]
+- ["13QiscusCoreAPI11CommentTypeO", "all"]
+- ["13QiscusCoreAPI11CommentTypeO", "buttonPostbackResponse"]
+- ["13QiscusCoreAPI11CommentTypeO", "buttons"]
+- ["13QiscusCoreAPI11CommentTypeO", "card"]
+- ["13QiscusCoreAPI11CommentTypeO", "carousel"]
+- ["13QiscusCoreAPI11CommentTypeO", "contactPerson"]
+- ["13QiscusCoreAPI11CommentTypeO", "custom"]
+- ["13QiscusCoreAPI11CommentTypeO", "deinit"]
+- ["13QiscusCoreAPI11CommentTypeO", "fileAttachment"]
+- ["13QiscusCoreAPI11CommentTypeO", "hash"]
+- ["13QiscusCoreAPI11CommentTypeO", "hashValue"]
+- ["13QiscusCoreAPI11CommentTypeO", "init"]
+- ["13QiscusCoreAPI11CommentTypeO", "location"]
+- ["13QiscusCoreAPI11CommentTypeO", "rawValue"]
+- ["13QiscusCoreAPI11CommentTypeO", "reply"]
+- ["13QiscusCoreAPI11CommentTypeO", "systemEvent"]
+- ["13QiscusCoreAPI11CommentTypeO", "text"]
+- !private ["SL", "boolValue"]
+- !private ["SL", "dictionaryObject"]
+- !private ["SL", "init"]
+- !private ["SL", "int64Value"]
+- !private ["SL", "lowercased"]
+- !private ["SL", "stringValue"]
+- !private ["SL", "subscript"]
+- !private ["SL", "url"]
+- !private ["10Foundation15ContiguousBytesP", "boolValue"]
+- !private ["10Foundation15ContiguousBytesP", "dictionaryObject"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "int64Value"]
+- !private ["10Foundation15ContiguousBytesP", "stringValue"]
+- !private ["10Foundation15ContiguousBytesP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "boolValue"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "dictionaryObject"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "int64Value"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "identifier"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "boolValue"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "dictionaryObject"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int64Value"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "timeZone"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["10Foundation12DataProtocolP", "boolValue"]
+- !private ["10Foundation12DataProtocolP", "dictionaryObject"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "int64Value"]
+- !private ["10Foundation12DataProtocolP", "stringValue"]
+- !private ["10Foundation12DataProtocolP", "url"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["So15NSDateFormatterC", "date"]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "locale"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["So15NSDateFormatterC", "timeZone"]
+- !private ["Se", "boolValue"]
+- !private ["Se", "current"]
+- !private ["Se", "dictionaryObject"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "identifier"]
+- !private ["Se", "init"]
+- !private ["Se", "int64Value"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "lowercased"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "stringValue"]
+- !private ["Se", "subscript"]
+- !private ["Se", "url"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "isEmpty"]
+- !private ["SD", "removeAll"]
+- !private ["SD", "subscript"]
+- !private ["SE", "boolValue"]
+- !private ["SE", "current"]
+- !private ["SE", "dictionaryObject"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "identifier"]
+- !private ["SE", "init"]
+- !private ["SE", "int64Value"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "lowercased"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "stringValue"]
+- !private ["SE", "subscript"]
+- !private ["SE", "url"]
+- ["SQ", "=="]
+- ["SQ", "AllCases"]
+- !private ["SQ", "CommentStatus"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_AllCases"]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "accountLink"]
+- !private ["SQ", "all"]
+- ["SQ", "allCases"]
+- !private ["SQ", "asInt"]
+- !private ["SQ", "boolValue"]
+- ["SQ", "buttonPostbackResponse"]
+- ["SQ", "buttons"]
+- ["SQ", "card"]
+- ["SQ", "carousel"]
+- ["SQ", "contactPerson"]
+- !private ["SQ", "current"]
+- ["SQ", "custom"]
+- !private ["SQ", "date"]
+- !private ["SQ", "dateFormat"]
+- ["SQ", "deleted"]
+- ["SQ", "delivered"]
+- !private ["SQ", "dictionaryObject"]
+- !private ["SQ", "enumerated"]
+- ["SQ", "failed"]
+- ["SQ", "fileAttachment"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "identifier"]
+- ["SQ", "init"]
+- !private ["SQ", "int64Value"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "locale"]
+- ["SQ", "location"]
+- !private ["SQ", "lowercased"]
+- ["SQ", "pending"]
+- ["SQ", "rawValue"]
+- ["SQ", "read"]
+- !private ["SQ", "removeAll"]
+- ["SQ", "reply"]
+- ["SQ", "sending"]
+- ["SQ", "sent"]
+- !private ["SQ", "string"]
+- !private ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- ["SQ", "systemEvent"]
+- ["SQ", "text"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["SQ", "timeZone"]
+- !private ["SQ", "url"]
+- !private ["s25ExpressibleByArrayLiteralP", "boolValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "dictionaryObject"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "int64Value"]
+- !private ["s25ExpressibleByArrayLiteralP", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "url"]
+- !private ["s27ExpressibleByBooleanLiteralP", "boolValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "dictionaryObject"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int64Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "stringValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "url"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "boolValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "dictionaryObject"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "int64Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "isEmpty"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeAll"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "stringValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "url"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "boolValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dictionaryObject"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "int64Value"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "stringValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "url"]
+- !private ["s25ExpressibleByFloatLiteralP", "boolValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "dictionaryObject"]
+- !private ["s25ExpressibleByFloatLiteralP", "int64Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "stringValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "url"]
+- !private ["s27ExpressibleByIntegerLiteralP", "boolValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "dictionaryObject"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int64Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "stringValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "url"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "boolValue"]
+- !private ["s26ExpressibleByStringLiteralP", "dictionaryObject"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "int64Value"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "stringValue"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "url"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "boolValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dictionaryObject"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "int64Value"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "stringValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "url"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["So11NSFormatterC", "date"]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "locale"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["So11NSFormatterC", "timeZone"]
+- ["SH", "=="]
+- ["SH", "AllCases"]
+- !private ["SH", "CommentStatus"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_AllCases"]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "accountLink"]
+- !private ["SH", "all"]
+- ["SH", "allCases"]
+- !private ["SH", "asInt"]
+- ["SH", "buttonPostbackResponse"]
+- ["SH", "buttons"]
+- ["SH", "card"]
+- ["SH", "carousel"]
+- ["SH", "contactPerson"]
+- !private ["SH", "current"]
+- ["SH", "custom"]
+- !private ["SH", "date"]
+- !private ["SH", "dateFormat"]
+- ["SH", "deleted"]
+- ["SH", "delivered"]
+- !private ["SH", "enumerated"]
+- ["SH", "failed"]
+- ["SH", "fileAttachment"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "identifier"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "locale"]
+- ["SH", "location"]
+- !private ["SH", "lowercased"]
+- ["SH", "pending"]
+- ["SH", "rawValue"]
+- ["SH", "read"]
+- !private ["SH", "removeAll"]
+- ["SH", "reply"]
+- ["SH", "sending"]
+- ["SH", "sent"]
+- !private ["SH", "string"]
+- !private ["SH", "subscript"]
+- ["SH", "systemEvent"]
+- ["SH", "text"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["SH", "timeZone"]
+- !private ["s5Int64V", "init"]
+- !private ["10SwiftyJSON0B0V", "boolValue"]
+- !private ["10SwiftyJSON0B0V", "dictionaryObject"]
+- !private ["10SwiftyJSON0B0V", "int64Value"]
+- !private ["10SwiftyJSON0B0V", "stringValue"]
+- !private ["10SwiftyJSON0B0V", "subscript"]
+- !private ["10SwiftyJSON0B0V", "url"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "lowercased"]
+- !private ["s20LazySequenceProtocolP", "boolValue"]
+- !private ["s20LazySequenceProtocolP", "dictionaryObject"]
+- !private ["s20LazySequenceProtocolP", "int64Value"]
+- !private ["s20LazySequenceProtocolP", "stringValue"]
+- !private ["s20LazySequenceProtocolP", "url"]
+- !private ["10Foundation6LocaleV", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["SM", "boolValue"]
+- !private ["SM", "dictionaryObject"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "int64Value"]
+- !private ["SM", "stringValue"]
+- !private ["SM", "url"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "timeIntervalSince1970"]
+- !private ["So8NSCodingP", "timeZone"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "timeIntervalSince1970"]
+- !private ["So9NSCopyingP", "timeZone"]
+- !private ["So6NSDateC", "init"]
+- !private ["So6NSDateC", "timeIntervalSince1970"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "locale"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "timeIntervalSince1970"]
+- !private ["So8NSObjectC", "timeZone"]
+- !private ["So8NSObjectP", "date"]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "locale"]
+- !private ["So8NSObjectP", "lowercased"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "timeIntervalSince1970"]
+- !private ["So8NSObjectP", "timeZone"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So14NSSecureCodingP", "timeIntervalSince1970"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["Sj", "init"]
+- !private ["Sk", "boolValue"]
+- !private ["Sk", "dictionaryObject"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "int64Value"]
+- !private ["Sk", "stringValue"]
+- !private ["Sk", "url"]
+- !private ["Sm", "boolValue"]
+- !private ["Sm", "dictionaryObject"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "init"]
+- !private ["Sm", "int64Value"]
+- !private ["Sm", "lowercased"]
+- !private ["Sm", "stringValue"]
+- !private ["Sm", "url"]
+- ["SY", "=="]
+- ["SY", "AllCases"]
+- !private ["SY", "CommentStatus"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_AllCases"]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "accountLink"]
+- !private ["SY", "all"]
+- ["SY", "allCases"]
+- !private ["SY", "asInt"]
+- !private ["SY", "boolValue"]
+- ["SY", "buttonPostbackResponse"]
+- ["SY", "buttons"]
+- ["SY", "card"]
+- ["SY", "carousel"]
+- ["SY", "contactPerson"]
+- ["SY", "custom"]
+- ["SY", "deleted"]
+- ["SY", "delivered"]
+- !private ["SY", "dictionaryObject"]
+- ["SY", "failed"]
+- ["SY", "fileAttachment"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "int64Value"]
+- ["SY", "location"]
+- ["SY", "pending"]
+- ["SY", "rawValue"]
+- ["SY", "read"]
+- ["SY", "reply"]
+- ["SY", "sending"]
+- ["SY", "sent"]
+- !private ["SY", "stringValue"]
+- !private ["SY", "subscript"]
+- ["SY", "systemEvent"]
+- ["SY", "text"]
+- !private ["SY", "url"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["10Foundation20ReferenceConvertibleP", "identifier"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "boolValue"]
+- !private ["ST", "dictionaryObject"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "init"]
+- !private ["ST", "int64Value"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "lowercased"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "stringValue"]
+- !private ["ST", "subscript"]
+- !private ["ST", "url"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s5SliceV", "boolValue"]
+- !private ["s5SliceV", "dictionaryObject"]
+- !private ["s5SliceV", "int64Value"]
+- !private ["s5SliceV", "stringValue"]
+- !private ["s5SliceV", "url"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "lowercased"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["Sy", "lowercased"]
+- ["13QiscusCoreAPI8SyncMetaC", "Bool"]
+- ["13QiscusCoreAPI8SyncMetaC", "Int"]
+- ["13QiscusCoreAPI8SyncMetaC", "deinit"]
+- ["13QiscusCoreAPI8SyncMetaC", "init"]
+- ["13QiscusCoreAPI8SyncMetaC", "last_received_comment_id"]
+- ["13QiscusCoreAPI8SyncMetaC", "need_clear"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["10Foundation8TimeZoneV", "current"]
+- !private ["10Foundation8TimeZoneV", "identifier"]
+- !private ["10Foundation8TimeZoneV", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["13QiscusCoreAPI9UserModelV", "avatarUrl"]
+- !private ["13QiscusCoreAPI9UserModelV", "email"]
+- !private ["13QiscusCoreAPI9UserModelV", "id"]
+- !private ["13QiscusCoreAPI9UserModelV", "username"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "timeIntervalSince1970"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeIntervalSince1970"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "date"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateFormat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locale"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowercased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeIntervalSince1970"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "identifier"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- "s12CaseIterableP"
+- !private "Sl"
+- "13QiscusCoreAPI12CommentModelC"
+- "13QiscusCoreAPI13CommentStatusO"
+- "13QiscusCoreAPI11CommentTypeO"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "So11NSFormatterC"
+- "SH"
+- !private "s5Int64V"
+- !private "10SwiftyJSON0B0V"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s20LazySequenceProtocolP"
+- !private "10Foundation6LocaleV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDateC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s5SliceV"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- "13QiscusCoreAPI8SyncMetaC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation8TimeZoneV"
+- !private "10Foundation3URLV"
+- !private "13QiscusCoreAPI9UserModelV"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/SwiftyJSON.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/module.modulemap"
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/SwiftyJSON.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2d7d0931be4e1484f1509fd4b8b0aead"

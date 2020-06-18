@@ -1,0 +1,185 @@
+{
+  "": {
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/master.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/ConfigManager.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/ConfigManager.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/ConfigManager.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/ConfigManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/ConfigManager.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Extentions/Data.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Extentions/Data.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Extentions/Data.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Extentions/Data~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Extentions/Data.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Extentions/UIDeviceInfo.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Extentions/UIDeviceInfo.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Extentions/UIDeviceInfo.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Extentions/UIDeviceInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Extentions/UIDeviceInfo.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Helper/QiscusLogger.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Helper/QiscusLogger.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Helper/QiscusLogger.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Helper/QiscusLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Helper/QiscusLogger.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Model/Base/ApiResponse.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/Base/ApiResponse.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/Base/ApiResponse.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/Base/ApiResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/Base/ApiResponse.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Model/CommentInfo.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/CommentInfo.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/CommentInfo.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/CommentInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/CommentInfo.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Model/CommentModel.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/CommentModel.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/CommentModel.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/CommentModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/CommentModel.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Model/Config/QiscusConfig.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/Config/QiscusConfig.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/Config/QiscusConfig.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/Config/QiscusConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/Config/QiscusConfig.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Model/FileModel.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/FileModel.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/FileModel.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/FileModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/FileModel.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Model/GenericModel.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/GenericModel.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/GenericModel.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/GenericModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/GenericModel.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Model/LBModel.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/LBModel.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/LBModel.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/LBModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/LBModel.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Model/NonceModel.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/NonceModel.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/NonceModel.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/NonceModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/NonceModel.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Model/QError.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/QError.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/QError.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/QError~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/QError.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Model/RoomEvent.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/RoomEvent.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/RoomEvent.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/RoomEvent~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/RoomEvent.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Model/RoomModel.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/RoomModel.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/RoomModel.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/RoomModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/RoomModel.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Model/UserModel.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/UserModel.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/UserModel.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/UserModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Model/UserModel.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Network/Encoding/ParameterEncoder.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Encoding/ParameterEncoder.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Encoding/ParameterEncoder.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Encoding/ParameterEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Encoding/ParameterEncoder.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Network/Encoding/ParameterEncoding.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Encoding/ParameterEncoding.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Encoding/ParameterEncoding.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Encoding/ParameterEncoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Encoding/ParameterEncoding.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Network/NetworkManager.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/NetworkManager.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/NetworkManager.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/NetworkManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/NetworkManager.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Network/NetworkMessage.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/NetworkMessage.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/NetworkMessage.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/NetworkMessage~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/NetworkMessage.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Network/NetworkRoom.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/NetworkRoom.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/NetworkRoom.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/NetworkRoom~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/NetworkRoom.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Network/Service/Endpoint.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Network/Service/Endpoint/EndpointComment.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint/EndpointComment.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint/EndpointComment.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint/EndpointComment~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint/EndpointComment.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Network/Service/Endpoint/EndpointRoom.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint/EndpointRoom.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint/EndpointRoom.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint/EndpointRoom~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint/EndpointRoom.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Network/Service/Endpoint/EndpointUser.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint/EndpointUser.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint/EndpointUser.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint/EndpointUser~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Endpoint/EndpointUser.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Network/Service/HTTPUtil.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/HTTPUtil.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/HTTPUtil.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/HTTPUtil~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/HTTPUtil.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Network/Service/Router.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Router.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Router.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Router~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Network/Service/Router.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Protocol/Interface.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Protocol/Interface.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Protocol/Interface.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Protocol/Interface~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Protocol/Interface.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/Protocol/QiscusConnectionDelegate.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Protocol/QiscusConnectionDelegate.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Protocol/QiscusConnectionDelegate.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Protocol/QiscusConnectionDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/Protocol/QiscusConnectionDelegate.swiftdeps"
+  },
+  "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/Source/QiscusCoreAPI/QiscusCore.swift": {
+    "dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/QiscusCore.d",
+    "object": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/QiscusCore.swift.o",
+    "swiftmodule": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/QiscusCore~partial.swiftmodule",
+    "swift-dependencies": "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/QiscusCore.swiftdeps"
+  }
+}

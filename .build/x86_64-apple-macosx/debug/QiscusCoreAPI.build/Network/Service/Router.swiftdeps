@@ -1,0 +1,412 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkRouterCompletion"
+- "NetworkRouter"
+- "Router"
+provides-nominal:
+- "13QiscusCoreAPI13NetworkRouterP"
+- "13QiscusCoreAPI6RouterC"
+provides-member:
+- ["13QiscusCoreAPI13NetworkRouterP", ""]
+- ["13QiscusCoreAPI6RouterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Data"
+- !private "DispatchQueue"
+- "EndPoint"
+- "Error"
+- !private "FloatLiteralType"
+- "HTTPHeaders"
+- "NetworkRouter"
+- "NetworkRouterCompletion"
+- "ParameterEncoding"
+- "Parameters"
+- "QiscusCoreAPI"
+- !private "QiscusLogger"
+- "Router"
+- "String"
+- !private "StringLiteralType"
+- !private "UIDevice"
+- "URLRequest"
+- "URLResponse"
+- "URLSession"
+- "URLSessionTask"
+- !private "VERSION_NUMBER"
+depends-member:
+- !private ["SK", "isEmpty"]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "dataTask"]
+- ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "global"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "sync"]
+- !private ["So23NSURLRequestCachePolicyV", "reloadIgnoringLocalAndRemoteCacheData"]
+- !private ["Sl", "isEmpty"]
+- !private ["SL", "isEmpty"]
+- !private ["13QiscusCoreAPI0B7CommandP", "config"]
+- !private ["13QiscusCoreAPI0B7CommandP", "userProfile"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "config"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "server"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "sync"]
+- !private ["s28CustomDebugStringConvertibleP", "userProfile"]
+- !private ["s17CustomReflectableP", "config"]
+- !private ["s17CustomReflectableP", "httpMethod"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "server"]
+- !private ["s17CustomReflectableP", "setValue"]
+- !private ["s17CustomReflectableP", "userProfile"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "sync"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "config"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "server"]
+- !private ["Se", "userProfile"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["So17OS_dispatch_queueC", "sync"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "config"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "server"]
+- !private ["SE", "userProfile"]
+- !private ["13QiscusCoreAPI8EndPointP", "httpMethod"]
+- !private ["13QiscusCoreAPI8EndPointP", "path"]
+- !private ["13QiscusCoreAPI8EndPointP", "task"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "background"]
+- !private ["SQ", "cancel"]
+- !private ["SQ", "config"]
+- !private ["SQ", "dataTask"]
+- ["SQ", "default"]
+- !private ["SQ", "encode"]
+- !private ["SQ", "global"]
+- !private ["SQ", "httpMethod"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "main"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "reloadIgnoringLocalAndRemoteCacheData"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "server"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "sync"]
+- !private ["SQ", "userProfile"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s23ExpressibleByNilLiteralP", "config"]
+- !private ["s23ExpressibleByNilLiteralP", "server"]
+- !private ["s23ExpressibleByNilLiteralP", "userProfile"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["13QiscusCoreAPI10HTTPMethodO", "deinit"]
+- !private ["13QiscusCoreAPI10HTTPMethodO", "rawValue"]
+- ["13QiscusCoreAPI8HTTPTaskO", "request"]
+- ["13QiscusCoreAPI8HTTPTaskO", "requestParameters"]
+- ["13QiscusCoreAPI8HTTPTaskO", "requestParametersAndHeaders"]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "background"]
+- !private ["SH", "cancel"]
+- !private ["SH", "config"]
+- !private ["SH", "dataTask"]
+- ["SH", "default"]
+- !private ["SH", "encode"]
+- !private ["SH", "global"]
+- !private ["SH", "httpMethod"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "main"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "reloadIgnoringLocalAndRemoteCacheData"]
+- !private ["SH", "resume"]
+- !private ["SH", "server"]
+- !private ["SH", "setValue"]
+- !private ["SH", "sync"]
+- !private ["SH", "userProfile"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "config"]
+- !private ["13QiscusCoreAPI14MessageCommandP", "userProfile"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", "cancel"]
+- ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "cancel"]
+- !private ["So8NSObjectC", "dataTask"]
+- ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", "cancel"]
+- !private ["So8NSObjectP", "dataTask"]
+- ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "global"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["13QiscusCoreAPI13NetworkRouterP", "DispatchQueue"]
+- ["13QiscusCoreAPI13NetworkRouterP", "EndPoint"]
+- ["13QiscusCoreAPI13NetworkRouterP", "NetworkRouterCompletion"]
+- !private ["13QiscusCoreAPI13NetworkRouterP", "QiscusLogger"]
+- !private ["13QiscusCoreAPI13NetworkRouterP", "UIDevice"]
+- !private ["13QiscusCoreAPI13NetworkRouterP", "URLRequest"]
+- ["13QiscusCoreAPI13NetworkRouterP", "URLSession"]
+- !private ["13QiscusCoreAPI13NetworkRouterP", "VERSION_NUMBER"]
+- ["13QiscusCoreAPI13NetworkRouterP", ""]
+- ["13QiscusCoreAPI13NetworkRouterP", "_Default_endPoint"]
+- !private ["13QiscusCoreAPI13NetworkRouterP", "addAdditionalHeaders"]
+- !private ["13QiscusCoreAPI13NetworkRouterP", "buildRequest"]
+- ["13QiscusCoreAPI13NetworkRouterP", "cancel"]
+- !private ["13QiscusCoreAPI13NetworkRouterP", "configureParameters"]
+- !private ["13QiscusCoreAPI13NetworkRouterP", "core"]
+- ["13QiscusCoreAPI13NetworkRouterP", "endPoint"]
+- !private ["13QiscusCoreAPI13NetworkRouterP", "header"]
+- ["13QiscusCoreAPI13NetworkRouterP", "request"]
+- !private ["13QiscusCoreAPI13NetworkRouterP", "session"]
+- !private ["13QiscusCoreAPI13NetworkRouterP", "task"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["Sq", "config"]
+- !private ["Sq", "server"]
+- !private ["Sq", "userProfile"]
+- !private ["13QiscusCoreAPI17ParameterEncodingO", "encode"]
+- !private ["So19NSProgressReportingP", "cancel"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["13QiscusCoreAPI0A6ConfigV", "server"]
+- !private ["13QiscusCoreAPIAAC", "config"]
+- !private ["13QiscusCoreAPIAAC", "userProfile"]
+- !private ["13QiscusCoreAPI0A6LoggerC", "networkLogger"]
+- !private ["13QiscusCoreAPI0A6ServerV", "url"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "background"]
+- !private ["Sm", "isEmpty"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "reloadIgnoringLocalAndRemoteCacheData"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpMethod"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "setValue"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "config"]
+- !private ["13QiscusCoreAPI11RoomCommandP", "userProfile"]
+- !private ["13QiscusCoreAPI6RouterC", "DispatchQueue"]
+- ["13QiscusCoreAPI6RouterC", "HTTPHeaders"]
+- ["13QiscusCoreAPI6RouterC", "NetworkRouterCompletion"]
+- ["13QiscusCoreAPI6RouterC", "ParameterEncoding"]
+- ["13QiscusCoreAPI6RouterC", "Parameters"]
+- ["13QiscusCoreAPI6RouterC", "QiscusCoreAPI"]
+- !private ["13QiscusCoreAPI6RouterC", "QiscusLogger"]
+- ["13QiscusCoreAPI6RouterC", "String"]
+- !private ["13QiscusCoreAPI6RouterC", "UIDevice"]
+- ["13QiscusCoreAPI6RouterC", "URLRequest"]
+- ["13QiscusCoreAPI6RouterC", "URLSession"]
+- ["13QiscusCoreAPI6RouterC", "URLSessionTask"]
+- !private ["13QiscusCoreAPI6RouterC", "VERSION_NUMBER"]
+- ["13QiscusCoreAPI6RouterC", "_Default_endPoint"]
+- !private ["13QiscusCoreAPI6RouterC", "addAdditionalHeaders"]
+- !private ["13QiscusCoreAPI6RouterC", "buildRequest"]
+- ["13QiscusCoreAPI6RouterC", "cancel"]
+- !private ["13QiscusCoreAPI6RouterC", "configureParameters"]
+- ["13QiscusCoreAPI6RouterC", "core"]
+- ["13QiscusCoreAPI6RouterC", "deinit"]
+- ["13QiscusCoreAPI6RouterC", "endPoint"]
+- ["13QiscusCoreAPI6RouterC", "header"]
+- ["13QiscusCoreAPI6RouterC", "init"]
+- ["13QiscusCoreAPI6RouterC", "request"]
+- !private ["13QiscusCoreAPI6RouterC", "session"]
+- !private ["13QiscusCoreAPI6RouterC", "task"]
+- !private ["7Combine9SchedulerP", "global"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["7Combine9SchedulerP", "sync"]
+- !private ["ST", "isEmpty"]
+- !private ["SS", "isEmpty"]
+- !private ["Sy", "isEmpty"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation10URLRequestV", "httpMethod"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["10Foundation10URLRequestV", "setValue"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- ["So12NSURLSessionC", "init"]
+- ["So25NSURLSessionConfigurationC", "default"]
+- !private ["So16NSURLSessionTaskC", "cancel"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["13QiscusCoreAPI9UserModelV", "id"]
+- !private ["13QiscusCoreAPI9UserModelV", "token"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sync"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "global"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sync"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "config"]
+- !private ["s21_ObjectiveCBridgeableP", "httpMethod"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "server"]
+- !private ["s21_ObjectiveCBridgeableP", "setValue"]
+- !private ["s21_ObjectiveCBridgeableP", "userProfile"]
+depends-nominal:
+- !private "SK"
+- "s7CVarArgP"
+- !private "So23NSURLRequestCachePolicyV"
+- !private "Sl"
+- !private "SL"
+- !private "13QiscusCoreAPI0B7CommandP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- !private "13QiscusCoreAPI8EndPointP"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "13QiscusCoreAPI10HTTPMethodO"
+- "13QiscusCoreAPI8HTTPTaskO"
+- "SH"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "13QiscusCoreAPI14MessageCommandP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "13QiscusCoreAPI13NetworkRouterP"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "13QiscusCoreAPI17ParameterEncodingO"
+- !private "So19NSProgressReportingP"
+- !private "13QiscusCoreAPI0A6ConfigV"
+- !private "13QiscusCoreAPIAAC"
+- !private "13QiscusCoreAPI0A6LoggerC"
+- !private "13QiscusCoreAPI0A6ServerV"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "13QiscusCoreAPI11RoomCommandP"
+- "13QiscusCoreAPI6RouterC"
+- !private "7Combine9SchedulerP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- "So12NSURLSessionC"
+- "So25NSURLSessionConfigurationC"
+- !private "So16NSURLSessionTaskC"
+- !private "13QiscusCoreAPI9UserModelV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/SwiftyJSON.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/module.modulemap"
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/SwiftyJSON.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f5b39b25aae201888c1b74f8f5bf1aaf"

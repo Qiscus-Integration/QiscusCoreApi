@@ -6,7 +6,10 @@
 //  Copyright © 2018 Qiscus. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
+#endif
+import Foundation
 
 enum NetworkResponse:String {
     case success

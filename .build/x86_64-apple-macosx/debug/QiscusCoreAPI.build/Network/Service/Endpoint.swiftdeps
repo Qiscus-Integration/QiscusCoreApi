@@ -1,0 +1,159 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EndPoint"
+- "APIClient"
+provides-nominal:
+- "13QiscusCoreAPI8EndPointP"
+- "13QiscusCoreAPI9APIClientO"
+provides-member:
+- ["13QiscusCoreAPI8EndPointP", ""]
+- ["13QiscusCoreAPI9APIClientO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "APIClient"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "EndPoint"
+- "HTTPMethod"
+- "HTTPTask"
+- "Int"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- ["13QiscusCoreAPI9APIClientO", "Bool"]
+- ["13QiscusCoreAPI9APIClientO", "HTTPMethod"]
+- ["13QiscusCoreAPI9APIClientO", "HTTPTask"]
+- ["13QiscusCoreAPI9APIClientO", "Int"]
+- ["13QiscusCoreAPI9APIClientO", "String"]
+- ["13QiscusCoreAPI9APIClientO", "deinit"]
+- ["13QiscusCoreAPI9APIClientO", "eventReport"]
+- ["13QiscusCoreAPI9APIClientO", "httpMethod"]
+- ["13QiscusCoreAPI9APIClientO", "loginRegister"]
+- ["13QiscusCoreAPI9APIClientO", "loginRegisterJWT"]
+- ["13QiscusCoreAPI9APIClientO", "myProfile"]
+- ["13QiscusCoreAPI9APIClientO", "nonce"]
+- ["13QiscusCoreAPI9APIClientO", "path"]
+- ["13QiscusCoreAPI9APIClientO", "registerDeviceToken"]
+- ["13QiscusCoreAPI9APIClientO", "removeDeviceToken"]
+- ["13QiscusCoreAPI9APIClientO", "search"]
+- ["13QiscusCoreAPI9APIClientO", "sync"]
+- ["13QiscusCoreAPI9APIClientO", "syncEvent"]
+- ["13QiscusCoreAPI9APIClientO", "task"]
+- ["13QiscusCoreAPI9APIClientO", "unread"]
+- ["13QiscusCoreAPI9APIClientO", "updateMyProfile"]
+- ["13QiscusCoreAPI9APIClientO", "upload"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- ["13QiscusCoreAPI8EndPointP", "HTTPMethod"]
+- ["13QiscusCoreAPI8EndPointP", "HTTPTask"]
+- ["13QiscusCoreAPI8EndPointP", "String"]
+- ["13QiscusCoreAPI8EndPointP", ""]
+- ["13QiscusCoreAPI8EndPointP", "eventReport"]
+- ["13QiscusCoreAPI8EndPointP", "httpMethod"]
+- ["13QiscusCoreAPI8EndPointP", "loginRegister"]
+- ["13QiscusCoreAPI8EndPointP", "loginRegisterJWT"]
+- ["13QiscusCoreAPI8EndPointP", "myProfile"]
+- ["13QiscusCoreAPI8EndPointP", "nonce"]
+- ["13QiscusCoreAPI8EndPointP", "path"]
+- ["13QiscusCoreAPI8EndPointP", "registerDeviceToken"]
+- ["13QiscusCoreAPI8EndPointP", "removeDeviceToken"]
+- ["13QiscusCoreAPI8EndPointP", "search"]
+- ["13QiscusCoreAPI8EndPointP", "sync"]
+- ["13QiscusCoreAPI8EndPointP", "syncEvent"]
+- ["13QiscusCoreAPI8EndPointP", "task"]
+- ["13QiscusCoreAPI8EndPointP", "unread"]
+- ["13QiscusCoreAPI8EndPointP", "updateMyProfile"]
+- ["13QiscusCoreAPI8EndPointP", "upload"]
+- !private ["SQ", "get"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jsonEncoding"]
+- !private ["SQ", "jsonUrlEncoding"]
+- !private ["SQ", "patch"]
+- !private ["SQ", "post"]
+- !private ["SQ", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["13QiscusCoreAPI10HTTPMethodO", "get"]
+- !private ["13QiscusCoreAPI10HTTPMethodO", "patch"]
+- !private ["13QiscusCoreAPI10HTTPMethodO", "post"]
+- !private ["13QiscusCoreAPI8HTTPTaskO", "requestParameters"]
+- !private ["SH", "get"]
+- !private ["SH", "init"]
+- !private ["SH", "jsonEncoding"]
+- !private ["SH", "jsonUrlEncoding"]
+- !private ["SH", "patch"]
+- !private ["SH", "post"]
+- !private ["SH", "subscript"]
+- !private ["13QiscusCoreAPI17ParameterEncodingO", "jsonEncoding"]
+- !private ["13QiscusCoreAPI17ParameterEncodingO", "jsonUrlEncoding"]
+- !private ["SY", "get"]
+- !private ["SY", "patch"]
+- !private ["SY", "post"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "13QiscusCoreAPI9APIClientO"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "13QiscusCoreAPI8EndPointP"
+- !private "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "13QiscusCoreAPI10HTTPMethodO"
+- !private "13QiscusCoreAPI8HTTPTaskO"
+- !private "SH"
+- !private "13QiscusCoreAPI17ParameterEncodingO"
+- !private "SY"
+- !private "ST"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/SwiftyJSON.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/module.modulemap"
+- "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/SwiftyJSON.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6d1a4aa9b2600d0624235b39d0862ab4"

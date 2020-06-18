@@ -5,6 +5,7 @@
 //  Created by Qiscus on 13/08/18.
 //
 
+import Foundation
 
 /// Delete type
 ///

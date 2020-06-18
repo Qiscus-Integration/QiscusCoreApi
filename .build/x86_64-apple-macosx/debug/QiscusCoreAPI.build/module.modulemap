@@ -1,0 +1,4 @@
+module QiscusCoreAPI {
+    header "/Users/asharijuang/iOS/Cocoapods/QiscusCoreAPI/Build/.build/x86_64-apple-macosx/debug/QiscusCoreAPI.build/QiscusCoreAPI-Swift.h"
+    requires objc
+}

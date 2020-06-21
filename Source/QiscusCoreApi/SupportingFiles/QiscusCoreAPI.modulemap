@@ -1,0 +1,8 @@
+framework module QiscusCoreAPI {
+    umbrella header "QiscusCoreAPI.h"
+    
+    export *
+    module * {
+        export *
+    }
+}

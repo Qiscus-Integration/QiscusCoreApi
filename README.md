@@ -17,6 +17,8 @@
 
 ## Installation
 
+### Cocoapods
+
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
 
 ```bash
@@ -39,6 +41,14 @@ Then, run the following command:
 
 ```bash
 $ pod install
+```
+
+### Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate MultichannelWidget into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "Qiscus-Integration/QiscusCoreApi"
 ```
 
 ### Security Disclosure

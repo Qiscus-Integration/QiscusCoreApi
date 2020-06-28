@@ -25,7 +25,6 @@
 		11449ABA249DD1B900E32D9F /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11449A91249DD1B900E32D9F /* Endpoint.swift */; };
 		11449ABB249DD1B900E32D9F /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11449A93249DD1B900E32D9F /* Interface.swift */; };
 		11449ABC249DD1B900E32D9F /* QiscusConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11449A94249DD1B900E32D9F /* QiscusConnectionDelegate.swift */; };
-		11449ABD249DD1B900E32D9F /* QiscusCoreAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 11449A95249DD1B900E32D9F /* QiscusCoreAPI.h */; };
 		11449ABE249DD1B900E32D9F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11449A97249DD1B900E32D9F /* Data.swift */; };
 		11449ABF249DD1B900E32D9F /* UIDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11449A98249DD1B900E32D9F /* UIDeviceInfo.swift */; };
 		11449AC0249DD1B900E32D9F /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11449A9A249DD1B900E32D9F /* CommentModel.swift */; };
@@ -76,7 +75,6 @@
 		11449A91249DD1B900E32D9F /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		11449A93249DD1B900E32D9F /* Interface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
 		11449A94249DD1B900E32D9F /* QiscusConnectionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiscusConnectionDelegate.swift; sourceTree = "<group>"; };
-		11449A95249DD1B900E32D9F /* QiscusCoreAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiscusCoreAPI.h; sourceTree = "<group>"; };
 		11449A97249DD1B900E32D9F /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		11449A98249DD1B900E32D9F /* UIDeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceInfo.swift; sourceTree = "<group>"; };
 		11449A9A249DD1B900E32D9F /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 		11449AA4249DD1B900E32D9F /* RoomModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomModel.swift; sourceTree = "<group>"; };
 		11449AA5249DD1B900E32D9F /* GenericModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericModel.swift; sourceTree = "<group>"; };
 		11449AA7249DD1B900E32D9F /* ApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
-		11449AA8249DD1B900E32D9F /* QiscusCoreAPI.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = QiscusCoreAPI.modulemap; sourceTree = "<group>"; };
 		11449AAA249DD1B900E32D9F /* QiscusCoreAPI.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = QiscusCoreAPI.modulemap; sourceTree = "<group>"; };
 		11449AAC249DD1B900E32D9F /* QiscusLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiscusLogger.swift; sourceTree = "<group>"; };
 		11449ACF249DD1D500E32D9F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
@@ -170,10 +167,8 @@
 				11449A82249DD1B900E32D9F /* QiscusCore.swift */,
 				11449A83249DD1B900E32D9F /* Network */,
 				11449A92249DD1B900E32D9F /* Protocol */,
-				11449A95249DD1B900E32D9F /* QiscusCoreAPI.h */,
 				11449A96249DD1B900E32D9F /* Extentions */,
 				11449A99249DD1B900E32D9F /* Model */,
-				11449AA8249DD1B900E32D9F /* QiscusCoreAPI.modulemap */,
 				11449AA9249DD1B900E32D9F /* SupportingFiles */,
 				11449AAB249DD1B900E32D9F /* Helper */,
 			);
@@ -306,7 +301,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11449ABD249DD1B900E32D9F /* QiscusCoreAPI.h in Headers */,
 				11449A76249DD16C00E32D9F /* QiscusCoreAPI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

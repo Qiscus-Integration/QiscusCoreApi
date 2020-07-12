@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CocoaMQTT
 
 let VERSION_NUMBER = "0.2.1"
 
@@ -56,7 +57,56 @@ public class QiscusCoreAPI {
         if let _server = server {
             self.config.server = _server
         }
+        
+        let clientID = "CocoaMQTT-" + String(ProcessInfo().processIdentifier)
+        let mqtt = CocoaMQTT(clientID: clientID, host: "localhost", port: 1883)
+        mqtt.username = "test"
+        mqtt.password = "public"
+        mqtt.willMessage = CocoaMQTTMessage(topic: "/will", string: "dieout")
+        mqtt.keepAlive = 60
+        mqtt.delegate = self
+        mqtt.connect()
     }
+}
+
+extension QiscusCoreAPI : CocoaMQTTDelegate {
+    public func mqtt(_ mqtt: CocoaMQTT, didConnectAck ack: CocoaMQTTConnAck) {
+        
+    }
+    
+    public func mqtt(_ mqtt: CocoaMQTT, didPublishMessage message: CocoaMQTTMessage, id: UInt16) {
+        
+    }
+    
+    public func mqtt(_ mqtt: CocoaMQTT, didPublishAck id: UInt16) {
+        
+    }
+    
+    public func mqtt(_ mqtt: CocoaMQTT, didReceiveMessage message: CocoaMQTTMessage, id: UInt16) {
+        
+    }
+    
+    public func mqtt(_ mqtt: CocoaMQTT, didSubscribeTopics success: NSDictionary, failed: [String]) {
+        
+    }
+    
+    public func mqtt(_ mqtt: CocoaMQTT, didUnsubscribeTopics topics: [String]) {
+        
+    }
+    
+    public func mqttDidPing(_ mqtt: CocoaMQTT) {
+        
+    }
+    
+    public func mqttDidReceivePong(_ mqtt: CocoaMQTT) {
+        
+    }
+    
+    public func mqttDidDisconnect(_ mqtt: CocoaMQTT, withError err: Error?) {
+        
+    }
+    
+    
 }
 
 extension QiscusCoreAPI : CoreCommand {

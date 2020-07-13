@@ -28,7 +28,7 @@ public class RealtimeManager {
             deviceID = vendorIdentifier.uuidString
         }
         let clientID = "iosMQTT-\(bundle)-\(deviceID)"
-        let config = QiscusRealtimeConfig(appName: appName, clientID: clientID)
+        let config = QiscusRealtimeConfig(appName: appName, clientID: clientID, host: "realtime-jogja.qiscus.com", port: 1885)
         client = QiscusRealtime.init(withConfig: config)
     }
     

@@ -3,3 +3,6 @@ Cartfile.resolved
 .build/*
 Carthage/*
 QiscusCoreAPI.xcworkspace/xcuserdata
+Examples/cocoapods/Pods
+Examples/cocoapods/cocoapods/xcodeproj/xcuserdata
+Examples/cocoapods/cocoapods/xcworkspace/xcuserdata

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import QiscusRealtime
 
 let VERSION_NUMBER = "0.2.1"
 
@@ -33,6 +34,8 @@ public class QiscusCoreAPI {
         return self.userProfile != nil
     }
     
+    internal let realtimeManager: RealtimeManager = RealtimeManager.shared
+    
     /// Can't set to nil
     public private(set) var userProfile : UserModel? {
         set {
@@ -50,11 +53,15 @@ public class QiscusCoreAPI {
     public init(withAppId id: String, server: QiscusServer? = nil) {
         let defaultURL = URL(string: "https://api.qiscus.com")!
         self.network = NetworkManager(core: self)
-        
+        realtimeManager.setup(appName: id)
         let defaultServer = QiscusServer(url: defaultURL, realtimeURL: "", realtimePort: 80)
         self.config = QiscusConfig(appId: id, server: defaultServer)
         if let _server = server {
             self.config.server = _server
+        }
+        
+        if let user = self.userProfile {
+            self.realtimeManager.connect(username: user.username, password: user.token)
         }
     }
 }
@@ -76,9 +83,13 @@ extension QiscusCoreAPI : CoreCommand {
     ///   - onSuccess: success login
     ///   - onError: error login
     public func setUserWithIdentityToken(token: String, onSuccess: @escaping (UserModel) -> Void, onError: @escaping (QError) -> Void) {
-        network.login(identityToken: token, onSuccess: { (user) in
+        network.login(identityToken: token, onSuccess: { [weak self] (user) in
+            guard let self = self else {
+                return
+            }
             // save user profile
             self.userProfile = user
+            self.realtimeManager.connect(username: user.username, password: user.token)
             // return success
             onSuccess(user)
         }, onError: onError)

@@ -1,1 +1,2 @@
 git "https://github.com/SwiftyJSON/SwiftyJSON.git"
+github "qiscus/QiscusRealtime-iOS" "carthage-support"
